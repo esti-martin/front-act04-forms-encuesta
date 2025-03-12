@@ -11,4 +11,3 @@ Sección 4: Esti
 ### 1ª reunión
 - Organización del archivo HTML 
 - Distribución del trabajo
-- Proceso de trabajo con GitHub
