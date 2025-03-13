@@ -11,3 +11,10 @@ Sección 4: Esti
 ### 1ª reunión
 - Organización del archivo HTML 
 - Distribución del trabajo
+- Planteamiento de cómo trabajar en equipo en GitHub
+    - Se decide trabajar con varias ramas (branch) que luego habrá que fusionar
+        - Orlando: rama de trabajo de Orlando
+        - Ion: rama de trabajo de Ion
+        - Esti: rama de trabajo de Esti
+        - Docu: rama de documentación del proceso de trabajo
+        - Main: rama principal donde se irán fusionando las ramas
