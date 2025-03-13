@@ -25,8 +25,34 @@
                 <legend>Sección 3</legend>
             </fieldset>
 
-            <fieldset id="Seccion4">
-                <legend>Sección 4</legend>
+            <fieldset id="Preferencias">
+                <legend>Preferencias</legend>
+                
+                <p>¿En qué rango horario prefieres que te contactemos?</p>
+                <label for="hora-inicio">Desde las</label>
+                <input type="time" id="hora-inicio" name="hora-inicio" required min="08:00" max="18:00" step="900" required>
+                <label for="hora-fin">Hasta las</label>
+                <input type="time" id="hora-fin" name="hora-fin" required min="08:00" max="18:00" step="900" required>
+
+                <p>¿Qué método de pago prefieres?</p>
+                <label for="tarjeta">Tarjeta de crédito</label>
+                <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+                <label for="paypal">Paypal</label>
+                <input type="radio" id="paypal" name="pago" value="paypal">
+                <label for="transferencia">Transferencia</label>
+                <input type="radio" id="transferencia" name="pago" value="transferencia">
+                <label for="efectivo">Efectivo</label>
+                <input type="radio" id="efectivo" name="pago" value="efectivo">
+
+                <p>¿Con qué frecuencia compras en nuestra tienda?</p>
+                <label for="diariamente">Diariamente</label>   
+                <input type="radio" id="diariamente" name="frecuencia" value="diariamente">
+                <label for="semanalmente">Semanalmente</label>
+                <input type="radio" id="semanalmente" name="frecuencia" value="semanalmente">
+                <label for="mensualmente">Mensualmente</label>
+                <input type="radio" id="mensualmente" name="frecuencia" value="mensualmente">
+                <label for="rara vez">Rara vez</label>
+                <input type="radio" id="rara vez" name="frecuencia" value="rara vez">
             </fieldset>
         </form>
     </main>
