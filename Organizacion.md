@@ -8,7 +8,7 @@ Sección 3: Orlando
 Sección 4: Esti
 
 ## REUNIONES
-### 1ª reunión
+### 1ª reunión 12/3
 - Organización del archivo HTML 
 - Distribución del trabajo
 - Planteamiento de cómo trabajar en equipo en GitHub
@@ -18,3 +18,7 @@ Sección 4: Esti
         - Esti: rama de trabajo de Esti
         - Docu: rama de documentación del proceso de trabajo
         - Main: rama principal donde se irán fusionando las ramas
+
+### 2ª Reunión 13/3
+- Arreglar problema con ramas
+- Empezar a trabajar con CSS
