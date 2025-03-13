@@ -22,12 +22,35 @@
         accept-charset="utf-8"
         enctype="multipart/form-data">
 
-            <fieldset id="Seccion1">
-                <legend>Sección 1</legend>
+            <fieldset id="Informacionpersonal">
+                <legend>Información Personal</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com">
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="000 00 00 00" required>
+
             </fieldset>
 
-            <fieldset id="Seccion2">
-                <legend>Sección 2</legend>
+            <fieldset id="Experienciadecompra">
+                <legend>Experiencia de Compra</legend>
+                <label for="producto">Producto Comprado</label>
+                <input type="text" id="producto" name="producto" required>
+
+                <label for="calificacion">Calificación de Compra</label>
+                <input type="number" id="calificacion" name="calificacion" min="1"  max="10" required>
+
+                <label for="comentario">Comentario</label>
+                <textarea id="comentario" name="comentario" required></textarea>
+
+                <label for="fechadecompra">Fecha de Compra</label>
+                <input type="datetime-local" id="fechadecompra" name="fechadecompra" required>
+
+                <label for="recibo">Archivo de Recibo</label>
+                <input type="file" id="recibo" name="recibo" required>
             </fieldset>
 
             <fieldset>
