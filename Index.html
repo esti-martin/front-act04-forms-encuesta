@@ -16,9 +16,9 @@
         action="https://httpbin.org/post"
         method="post"
         name="encuesta"
+        id="encuesta"
         target="_self"
         autocomplete="on"
-        novalidate
         accept-charset="utf-8"
         enctype="multipart/form-data">
 
@@ -38,10 +38,50 @@
                 <legend>Preferencias</legend>
                 
                 <p>¿En qué rango horario prefieres que te contactemos?</p>
-                <label for="hora-inicio">Desde las</label>
-                <input type="time" id="hora-inicio" name="hora-inicio" required min="08:00" max="18:00" step="900" required>
-                <label for="hora-fin">Hasta las</label>
-                <input type="time" id="hora-fin" name="hora-fin" required min="08:00" max="18:00" step="900" required>
+                <p>Desde las: </p>
+                <label for="hora-inicio"></label>
+                <select id="hora-inicio" name="hora-inicio" required>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                </select>
+                <label for="minuto-inicio"></label>
+                <select id="minuto-inicio" name="minuto-inicio" required>
+                    <option value="00">00</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="45">45</option>
+                </select>
+                <p>Hasta las:</p>
+                <label for="hora-fin"></label>
+                <select id="hora-fin" name="hora-fin" required>
+                    <option value="08">08</option>
+                    <option value="09">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                </select>
+                <label for="minuto-fin"></label>
+                <select id="minuto-fin" name="minuto-fin" required>
+                    <option value="00">00</option>
+                    <option value="15">15</option>
+                    <option value="30">30</option>
+                    <option value="45">45</option>
+                </select>
 
                 <p>¿Qué método de pago prefieres?</p>
                 <label for="tarjeta">Tarjeta de crédito</label>
