@@ -24,7 +24,7 @@
 
             <fieldset id="Informacionpersonal">
                 <legend>Información Personal</legend>
-               <h2> Información Personal </h2> 
+                <h2>Información Personal</h2> 
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
 
@@ -38,6 +38,7 @@
 
             <fieldset id="Experienciadecompra">
                 <legend>Experiencia de Compra</legend>
+                <h2>Experiencia de Compra</h2> 
                 <label for="producto">Producto Comprado</label>
                 <input type="text" id="producto" name="producto" required>
 
@@ -59,8 +60,10 @@
 
             <fieldset id="satisfaccion">
                 <legend>Satisfacción General</legend>
+                <h2>Satisfacción General</h2> 
                 <label>Fecha de Nacimiento: <input type="date" name="fecha_nacimiento"></label>
-                <label>Zodiaco: 
+                
+                <label>Zodiaco:</label>
                     <select name="zodiaco">
                         <option value="aries">Aries</option>
                         <option value="tauro">Tauro</option>
@@ -75,21 +78,24 @@
                         <option value="acuario">Acuario</option>
                         <option value="piscis">Piscis</option>
                     </select>
-                </label>
+                
+
                 <label>Color Favorito: <input type="color" name="color_favorito"></label>
-                <label>¿Recomendarías nuestro producto a un amigo? 
-                    <input type="radio" name="recomendaria" value="si"> Sí
-                    <input type="radio" name="recomendaria" value="no"> No
-                </label>
-                <label>¿Cómo calificarías nuestro servicio al cliente? 
+                
+                <label>¿Recomendarías nuestro producto a un amigo?</label>
+                    <input type="radio" class="radio-label" name="recomendaria" value="si"> Sí
+                    <input type="radio" class="radio-label" name="recomendaria" value="no"> No
+                
+                <label>¿Cómo calificarías nuestro servicio al cliente?</label>
                     <select name="servicio_cliente">
                         <option value="excelente">Excelente</option>
                         <option value="bueno">Bueno</option>
                         <option value="regular">Regular</option>
                         <option value="malo">Malo</option>
                     </select>
-                </label>
+                
                 <label>¿Qué mejorarías en nuestra tienda? <textarea name="mejoras"></textarea></label>
+                
                 <label>¿Qué características valoras más en un producto?</label>
                 <input type="checkbox" name="caracteristicas" value="calidad"> Calidad
                 <input type="checkbox" name="caracteristicas" value="precio"> Precio
@@ -101,7 +107,7 @@
 
             <fieldset id="Preferencias">
                 <legend>Preferencias</legend>
-                
+                <h2>Preferencias</h2> 
                 <p>¿En qué rango horario prefieres que te contactemos?</p>
                 <p>Desde las: </p>
                 <label for="hora-inicio"></label>
@@ -150,23 +156,23 @@
 
                 <p>¿Qué método de pago prefieres?</p>
                 <label for="tarjeta">Tarjeta de crédito</label>
-                <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+                <input type="radio" class="radio-label" id="tarjeta" name="pago" value="tarjeta">
                 <label for="paypal">Paypal</label>
-                <input type="radio" id="paypal" name="pago" value="paypal">
+                <input type="radio" class="radio-label" id="paypal" name="pago" value="paypal">
                 <label for="transferencia">Transferencia</label>
-                <input type="radio" id="transferencia" name="pago" value="transferencia">
+                <input type="radio" class="radio-label" id="transferencia" name="pago" value="transferencia">
                 <label for="efectivo">Efectivo</label>
-                <input type="radio" id="efectivo" name="pago" value="efectivo">
+                <input type="radio" class="radio-label" d="efectivo" name="pago" value="efectivo">
 
                 <p>¿Con qué frecuencia compras en nuestra tienda?</p>
                 <label for="diariamente">Diariamente</label>   
-                <input type="radio" id="diariamente" name="frecuencia" value="diariamente">
+                <input type="radio" class="radio-label" id="diariamente" name="frecuencia" value="diariamente">
                 <label for="semanalmente">Semanalmente</label>
-                <input type="radio" id="semanalmente" name="frecuencia" value="semanalmente">
+                <input type="radio" class="radio-label" id="semanalmente" name="frecuencia" value="semanalmente">
                 <label for="mensualmente">Mensualmente</label>
-                <input type="radio" id="mensualmente" name="frecuencia" value="mensualmente">
+                <input type="radio" class="radio-label" id="mensualmente" name="frecuencia" value="mensualmente">
                 <label for="rara vez">Rara vez</label>
-                <input type="radio" id="rara vez" name="frecuencia" value="rara vez">
+                <input type="radio" class="radio-label" id="rara vez" name="frecuencia" value="rara vez">
             </fieldset>
         </form>
     </main>
@@ -174,12 +180,12 @@
     <footer>
         <!--Para poner los botones "atrás", "siguiente" y "enviar"-->
         <ul>
-            <li class="pestana">&lt;</li>
+            <li class="navegacion">&lt;</li>
             <li class="pestana">1</li>
             <li class="pestana">2</li>
             <li class="pestana">3</li>
             <li class="pestana">4</li>
-            <li class="pestana">&gt;</li>
+            <li class="navegacion">&gt;</li>
         </ul>
          
     </footer>
